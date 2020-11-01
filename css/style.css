@@ -449,22 +449,22 @@ img {
 }
 
 .jquery {
-  width: 60%;
+  width: 50%;
   animation: html 2s;
 }
 
 .node {
-  width: 60%;
+  width: 50%;
   animation: html 2s;
 }
 
-.express {
-  width: 70%;
+.react {
+  width: 40%;
   animation: html 2s;
 }
 
 .mongodb {
-  width: 70%;
+  width: 60%;
   animation: html 2s;
 }
 
@@ -489,7 +489,7 @@ img {
   }
 
   100% {
-    width: 80%;
+    width: 90%;
   }
 
 }
@@ -542,14 +542,14 @@ img {
 
 }
 
-@keyframes express {
+@keyframes react {
   0% {
     width: 0;
 
   }
 
   100% {
-    width: 70%;
+    width: 40%;
   }
 
 }
@@ -561,7 +561,7 @@ img {
   }
 
   100% {
-    width: 70%;
+    width: 60%;
   }
 
 }
