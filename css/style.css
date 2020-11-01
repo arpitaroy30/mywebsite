@@ -1,0 +1,716 @@
+body {
+  background-color: #272121;
+  color: #e0dede;
+  text-align: center;
+  font-family: 'Rokkitt', serif;
+  font-size: 0.5cm;
+}
+
+.letter {
+  font-size: .5cm;
+
+}
+
+.connect-contact {
+  color: #686d76;
+}
+
+.hi {
+  font-size: 2.1cm;
+}
+
+
+#home {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: #272121;
+  display: flex;
+  align-items: center;
+}
+
+.icon {
+  margin: 5% 5% 5% 5%;
+}
+
+#home i {
+  height: 40%;
+  width: 20%;
+}
+
+#about i {
+  height: 40%;
+  width: 3%;
+}
+
+#contact i {
+  height: 40%;
+  width: 3%;
+}
+
+#home i:hover {
+  color: #e3dfc8;
+  transition: color 0.5s linear;
+}
+
+#home svg {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+#home h3 {
+  font-family: 'Rokkitt', serif;
+}
+
+#home h1 {
+  position: relative;
+  font-size: 9cm, ;
+  color: #fff;
+  font-family: 'Dancing Script', cursive;
+}
+
+#home h6 {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 0.8cm;
+}
+
+@media screen and (max-width: 768px) {
+
+  #home h3 {
+    font-size: 0.4cm;
+  }
+
+  #home h6 {
+    font-size: 0.45cm;
+  }
+
+  .fab {
+    font-size: .5cm;
+  }
+
+  .letter {
+    font-size: 0.3cm;
+  }
+
+  .hi {
+    font-size: 1.5cm;
+  }
+}
+
+.navbar-toggler {
+  position: absolute;
+  right: 2%;
+  display: block;
+  cursor: pointer;
+
+}
+
+#home .navlink {
+  font-size: 0.5cm;
+  display: block;
+}
+
+#home ul {
+  display: block;
+  width: 100%;
+  text-align: right;
+
+}
+
+#home ul li {
+  margin: 0;
+  padding: 0;
+  text-align: right;
+  display: block;
+  font-size: 0.7cm;
+}
+
+.navbar-brand {
+  position: absolute;
+  left: 2%;
+  font-weight: bold;
+  color: #fff;
+}
+
+.navbar-collapse {
+  position: absolute;
+  right: 2%;
+
+}
+
+nav i {
+  display: block;
+}
+
+
+.toggle {
+  display: block;
+}
+
+
+.active {
+  display: block;
+}
+}
+
+.toggle {
+
+  width: 100%;
+  padding: 10px 20px;
+  text-align: right;
+  box-sizing: border-box;
+  font-size: 30px;
+  display: block;
+}
+
+
+
+.navbar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100px;
+  padding: 10px 100px;
+  box-sizing: border-box;
+}
+
+.navbar-brand {
+
+  font-size: 1cm;
+  font-weight: bold;
+  color: #fff;
+}
+
+.navbar-nav {
+  float: right;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.nav-item {
+  list-style: none;
+
+}
+
+.nav-link {
+  list-style: 80px;
+  color: #fff;
+  padding: 5px 30px;
+}
+
+
+nav a {
+  display: inline-block;
+  text-transform: uppercase;
+  font-size: 13px;
+  letter-spacing: 2px;
+  color: #fff;
+}
+
+
+
+a:hover {
+  color: #272121;
+}
+
+
+
+
+.col-lg-12 {
+  padding: 0% 0% 0% 0%;
+  margin: 0% 15% 10% 15%;
+}
+
+.button-row {
+  justify-content: center;
+  margin: 30px 2px 30px 2px;
+
+}
+
+
+
+.ml11 {
+  position: relative;
+  font-weight: 700;
+  font-size: 1.5em;
+  color: black;
+
+  text-align: center;
+}
+
+.ml11 .text-wrapper {
+  position: relative;
+  display: inline-block;
+  padding-top: 0.1em;
+  padding-right: 0.05em;
+  padding-bottom: 0.15em;
+
+}
+
+.ml11 .line {
+  opacity: 0;
+  position: absolute;
+  left: 0;
+  height: 100%;
+  width: 3px;
+  background-color: #fff;
+  transform-origin: 0 50%;
+
+}
+
+.ml11 .line1 {
+  top: 0;
+  left: 0;
+}
+
+.ml11 .letter {
+  display: inline-block;
+  line-height: 1em;
+  color: #272121;
+}
+
+/* section-about */
+#about {
+  position: relative;
+  background-color: #272121;
+  position: relative;
+  justify-content: center;
+
+}
+
+#about .container-fluid {
+
+
+  padding: 0 2% 2% 2%;
+  margin: 5% 5% 5% 5%;
+  text-align: center;
+}
+
+
+* #about .h1 {
+
+  font-size: 2cm;
+  color: #fff;
+  font-family: 'Dancing Script', cursive;
+}
+
+#about p {}
+
+#about hr {
+  color: #ff6f5e;
+
+}
+
+
+#about .btn {
+
+  background-color: #ff6f5e;
+  cursor: pointer;
+  margin: 2% 0% 2% 0%;
+  float: left;
+  justify-content: center;
+  border-radius: 50%;
+}
+
+#about span {
+  color: #ff6f5e
+}
+
+.ml15 {
+  font-weight: 800;
+  font-size: 1.2em;
+  text-transform: uppercase;
+  letter-spacing: 0.5em;
+}
+
+.ml15 .word {
+  display: inline-block;
+  line-height: 1em;
+}
+
+
+
+img {
+  position: relative;
+  margin: 4% 4% 4% 4%;
+  justify-content: center;
+  height: 20%;
+  width: 20%;
+  border-radius: 50%;
+}
+
+@media screen and (max-width: 1068px) {
+  img {
+    height: 40%;
+    width: 40%;
+  }
+
+  #skills h3 {
+    font-size: .4cm;
+  }
+
+  #about p {
+    font-size: 0.5cm;
+  }
+}
+
+/* skills */
+
+
+#skills .container-fluid {
+
+  padding: 0 2% 2% 2%;
+  margin: 5% 5% 2% 5%;
+  text-align: center;
+}
+
+#skills h3 {
+  margin: 2% 2%;
+  color: #ff6f5e;
+  font-family: 'Rokkitt', serif;
+}
+
+#skills .row {
+  margin: 2%;
+}
+
+#skills .skill {
+  margin-top: 2%;
+  text-align: left;
+}
+
+#skills .progress {
+
+  border: 1px solid #ec524b;
+  background-color: #272121;
+  border-radius: 40px;
+  height: 1%;
+  width: 400px;
+}
+
+#skill .progess-bar {
+
+  background-color: #ff6f5e;
+  height: 1%;
+
+}
+
+@media screen and (max-width: 1068px) {
+  #skills .progress {
+    width: 300px;
+    height: 1%;
+  }
+
+  .col-lg-12 {
+    margin: 0% 5% 3% 5%;
+  }
+}
+
+.first-col {
+  margin-left: 5%;
+}
+
+.second-col {
+  margin-left: 20%;
+}
+
+@media screen and (max-width: 768px) {
+  .second-col {
+    margin-left: 5%;
+  }
+}
+
+
+.red {
+  background-color: #ff6f5e;
+}
+
+.html {
+  width: 90%;
+  animation: html 2s;
+}
+
+.css {
+  width: 90%;
+  animation: html 2s;
+}
+
+.bootstrap {
+  width: 80%;
+  animation: html 2s;
+}
+
+.javascript {
+  width: 50%;
+  animation: html 2s;
+}
+
+.jquery {
+  width: 60%;
+  animation: html 2s;
+}
+
+.node {
+  width: 60%;
+  animation: html 2s;
+}
+
+.express {
+  width: 70%;
+  animation: html 2s;
+}
+
+.mongodb {
+  width: 70%;
+  animation: html 2s;
+}
+
+@keyframes html {
+  0% {
+    width: 0;
+
+  }
+
+  100% {
+    width: 90%;
+  }
+
+}
+
+
+
+@keyframes css {
+  0% {
+    width: 0;
+
+  }
+
+  100% {
+    width: 80%;
+  }
+
+}
+
+@keyframes bootstrap {
+  0% {
+    width: 0;
+
+  }
+
+  100% {
+    width: 80%;
+  }
+
+}
+
+@keyframes javascript {
+  0% {
+    width: 0;
+
+  }
+
+  100% {
+    width: 50%;
+  }
+
+}
+
+@keyframes jquery {
+  0% {
+    width: 0;
+
+  }
+
+  100% {
+    width: 60%;
+  }
+
+}
+
+@keyframes node {
+  0% {
+    width: 0;
+
+  }
+
+  100% {
+    width: 60%;
+  }
+
+}
+
+@keyframes express {
+  0% {
+    width: 0;
+
+  }
+
+  100% {
+    width: 70%;
+  }
+
+}
+
+@keyframes mongodb {
+  0% {
+    width: 0;
+
+  }
+
+  100% {
+    width: 70%;
+  }
+
+}
+
+
+.footer {
+  margin-bottom: 0;
+  position: relative;
+  text-align: center;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #1b1919;
+}
+
+.footer p {
+  margin-bottom: 0;
+  margin-top: 15px;
+  font-size: 15px;
+  color: #686d76;
+}
+
+.connect {
+  padding-top: 5%;
+  padding-bottom: 0;
+  color: #686d76;
+}
+
+.footer a {
+
+  margin: 0;
+  height: 15%;
+  width: 5%;
+  color: #ff6f5e;
+}
+
+.footer a:hover {
+  color: #e3dfc8;
+}
+
+.foot {
+  padding: 3%;
+}
+
+/* contact */
+#contact {
+  background-color: #272121;
+  position: relative;
+  justify-content: center;
+  height: auto;
+}
+
+#contact .h1 {
+
+  font-size: 2cm;
+  color: #fff;
+  font-family: 'Dancing Script', cursive;
+}
+
+#contact span {
+  color: #ff6f5e;
+}
+
+input:focus~label, textarea:focus~label, input:valid~label, textarea:valid~label {
+  font-size: 0.75em;
+  color: #999;
+  top: -5px;
+  -webkit-transition: all 0.225s ease;
+  transition: all 0.225s ease;
+}
+
+.styled-input {
+  float: left;
+  width: 293px;
+  margin: 1rem 0;
+  position: relative;
+  border-radius: 100px;
+}
+
+@media only screen and (max-width: 768px) {
+  .styled-input {
+    width: 100%;
+  }
+}
+
+.styled-input label {
+  color: #999;
+  padding: 1.3rem 30px 1rem 30px;
+  position: absolute;
+  top: 10px;
+  left: 0;
+  -webkit-transition: all 0.25s ease;
+  transition: all 0.25s ease;
+  pointer-events: none;
+}
+
+.styled-input.wide {
+  width: 650px;
+  max-width: 100%;
+  border-radius: 100px;
+
+}
+
+input,
+textarea {
+  padding: 30px;
+
+  border: 0;
+  width: 100%;
+  font-size: 1rem;
+  background-color: #2d2d2d;
+  color: white;
+  border-radius: 40px;
+  border: 1px solid #ff6f5e;
+}
+
+
+
+input:focus,
+textarea:focus {
+  outline: 0;
+}
+
+input:focus~span,
+textarea:focus~span {
+  width: 100%;
+  -webkit-transition: all 0.075s ease;
+  transition: all 0.075s ease;
+}
+
+
+
+textarea {
+  width: 100%;
+  min-height: 15em;
+}
+
+.input-container {
+  width: 650px;
+  max-width: 100%;
+  margin: 20px auto 25px auto;
+}
+
+input[type=checkbox]+label {
+  color: #ccc;
+  font-style: italic;
+}
+
+input[type=checkbox]:checked+label {
+  color: #f00;
+  font-style: normal;
+}
